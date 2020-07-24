@@ -1,0 +1,133 @@
+/* BODY SECTION */
+body{
+    font-family: Arial, sans-serif;
+}
+/* NAVIGATION BER CONTAINING MENU ITEMS LIKE GMAIL,IMAGES,MENU BAR,PROFILE PICTURE */
+nav{
+    text-align: right;
+}
+/* GMAIL AND IMAGES */
+.menu-item{
+    font-size: 13px;
+    color: rgb(0,0,0,0.87);
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    margin-right: 16px;
+}
+.menu-item:hover{
+    text-decoration: underline;
+}
+/* ONLY MENU BAR LOGO */
+#menu-bar{
+    position: relative;
+    margin-right: 16px;
+    
+}
+/* CONTAINS BOTH MENU BAR LOGO AND GOOGLE APPS */
+
+#menu-block{
+    display: inline-block;
+}
+/* DISPALYING THE APP CONTAINER WHEN HOVER ON MENU BAR LOGO */
+#menu-block:hover 
+#app-container{
+    display: block;
+}
+/* APP CONTAINER WITH GOOGLE APPS */
+#app-container{
+    width: 280px;
+    padding:25px;
+    border: 1px solid #ccc;;
+    box-shadow: 0 2px 10px rgb(0,0,0,0.3);
+    position : absolute;
+    right:60px;
+    display: none;
+    
+}
+/* DISPLAYING APPS IN THE APP CONTAINER */
+.app{
+    display: inline-block;
+    width:80px;
+    padding:3px 2px;
+    border-bottom: rgb(0,0,0,0.1);
+}
+/* SELECTING IMAGES FROM THE APP */
+.app >img{
+    width:40px;
+    height: 40px;
+    padding-left:-1222px;
+}
+/* HIGHLIGHTING APPS ON HOVER */
+.app:hover{
+    box-shadow: 1px 1px rgb(0,0,0,0.2);
+    border-radius: 8px;
+}
+/* SECTION */
+section{
+    text-align: center;
+    padding-top: 11%;
+}
+/* GOOGLE LOGO */
+#logo{
+    width:250px;
+}
+/* CONTAINS ONLY SEARCH BAR */
+#search-box{
+    width: 100%;
+    color:#222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius:24px;
+    outline: none;
+}
+/* CONTAINS ONLY MIC IMAGE */
+#mic{
+    width:28x;
+    height:28px
+}
+/* WRAPS UP BOTH SEARCH BAR AND MIC IMAGE */
+#search-box_mic{
+    position: relative;
+    width: 582px;
+    display: inline-block; 
+    margin-top: 20px;   
+}
+/* SEARCH ICON IN THE SEARCH BAR */
+#search{
+    position: absolute;
+    bottom:10px;
+    left:20px;
+}
+/* SELECTING MIC FROM SEARCH BAR WRAPPER */
+#search-box_mic >img{
+    position: absolute;
+    top:10px;
+    right:-50px;
+}
+/* HIGHLIGHTING SEARCH BAR ON HOVER */
+#search-box:hover{
+    box-shadow: 0.1px 6px  rgb(30,30,30,0.10);
+    border-color: rgb(223,225,229,0);
+    
+}
+/* CREATING THE CUSTOMISED BUTTONS */
+.buttons{
+    background-color: #f2f2f2;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    padding:0 16px;
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 3px solid transparent;
+    box-shadow: 0 1px 1px;
+}
+/* WRAPPING UP THE BUTTONS */
+#button-wrapper{
+    margin-top:20px;
+}
+/* HIGHLIGHT THE BUTTON ON HOVER */
+.buttons:hover{
+    box-shadow: 0 1px 1px 1px rgb(0,0,0,0.1);
+}
